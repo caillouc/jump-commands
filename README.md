@@ -3,6 +3,12 @@ Re implementation of some basic commands (ls, mv, cp) with autojump
 
 For this command to work, you need to have [autojump](https://github.com/wting/autojump) installed.
 
+## Installation
+
+To use these functions, you need to clone the repo and add this line to your `~/.bashrc` of `~/.zshrc` file : 
+
+`source PATH/TO/FILE/cmds.sh`
+
 ## `mv` command : `jmv`
 
 The `jmv` command allows you to move a file or a folder to a destination specified using autojump.
